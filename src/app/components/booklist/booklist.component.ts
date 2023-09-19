@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Book } from '../../book/book.model';
 // import { BookstoreInventoryService } from '../../services/bookstore-inventory.service';
 import { BookService } from '../../services/book.service';
-import { CartService } from '../../services/Cart.service';
+import { CartService } from '../../services/cart.service';
 
 @Component({
   selector: 'app-booklist',
