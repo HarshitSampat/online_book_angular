@@ -1,0 +1,12 @@
+    <div class="col-md-4">
+    <div class="card mx-auto mb-4">
+        <img [src]="book.image" class="card-img-top" alt="{{ book.title }}" height="400">
+        <div class="card-body">
+        <h5 class="card-title">{{ book.title }}</h5>
+        <p class="card-text"><strong>Author:</strong> {{ book.author }}</p>
+        <p class="card-text"><strong>Price: $</strong>{{ book.price }}</p>
+        <p class="card-text"><strong>Stock:</strong> {{ book.stock }}</p>
+        <button class="btn btn-dark"  (click)="addToCart()">Add to cart</button>
+        </div>
+    </div>
+    </div>

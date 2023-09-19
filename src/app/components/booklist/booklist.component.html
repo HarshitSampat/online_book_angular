@@ -1,0 +1,28 @@
+<div class="container">
+  <h2 class="text-center">Find your favourite book</h2>
+  <hr />
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-12  mb-4" *ngFor="let book of books">
+          <app-book-item center-card [book]="book" (addToCartClicked)="updateCartItems()"></app-book-item>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Your Cart</h3>
+          <div *ngIf="cartItems && cartItems.length > 0">
+            <ul>
+              <li *ngFor="let item of cartItems">
+                 
+                 {{getTitle(item)}}
+              </li>
+            </ul>
+          </div>
+          <div *ngIf="!cartItems || cartItems.length === 0">Your cart is empty.</div>
+        </div>
+      </div>
+  </div>
+</div>

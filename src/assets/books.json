@@ -1,0 +1,26 @@
+{
+    "books": [
+      {
+        "title": "Phycology of Money",
+        "author": "Author 1",
+        "price": 25.99,
+        "stock": 10,
+        "image": "assets/psychologyofmoney.jpg"
+      },
+      {
+        "title": "Atomic Habits",
+        "author": "Author 2",
+        "price": 19.99,
+        "stock": 5,
+        "image": "assets/atomic_habits.jpg"
+      },
+      {
+        "title": "Book 3",
+        "author": "Author 3",
+        "price": 32.99,
+        "stock": 3,
+        "image": "assets/Veronica_Decide_to_die.jpg"
+      }
+    ]
+  }
+  

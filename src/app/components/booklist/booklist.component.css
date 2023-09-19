@@ -1,0 +1,4 @@
+.center-card {
+    margin: 0 auto; /* Center the card horizontally */
+    display: inline-block; /* Ensure cards are inline-block elements */
+  }
