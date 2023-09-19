@@ -5,21 +5,21 @@
       "author": "Author 1",
       "price": 25.99,
       "stock": 10,
-      "image": "https://asset.cloudinary.com/dip3poftg/7e7d5894f890f402d3e68c26eb81f8cf"
+      "image": "https://res.cloudinary.com/dip3poftg/image/upload/v1695126281/tutorial-examples-testing/psychologyofmoney_h8swzv.jpg"
     },
     {
       "title": "Atomic Habits",
       "author": "Author 2",
       "price": 19.99,
       "stock": 5,
-      "image": "https://asset.cloudinary.com/dip3poftg/6265d180512b6c1beaa6587c1b3bff7e"
+      "image": "https://res.cloudinary.com/dip3poftg/image/upload/v1695126281/tutorial-examples-testing/atomic_habits_ny788j.jpg"
     },
     {
       "title": "Book 3",
       "author": "Author 3",
       "price": 32.99,
       "stock": 3,
-      "image": "https://asset.cloudinary.com/dip3poftg/e598a90f231ac7e244ef8170f0d98fd2"
+      "image": "https://res.cloudinary.com/dip3poftg/image/upload/v1695126281/tutorial-examples-testing/Veronica_Decide_to_die_nc1bqd.jpg"
     }
   ]
 }
