@@ -13,6 +13,8 @@ export class BookItemComponent {
   constructor(private cartService: CartService) {}
 
   addToCart() {
+    // this.cartService.addToCart(this.book);
+    // this.addToCartClicked.emit();
     this.cartService.addToCart(this.book);
     this.addToCartClicked.emit();
   }
